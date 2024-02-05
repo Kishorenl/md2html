@@ -11,10 +11,7 @@ Traverse through the entire directory structure, ensuring no Markdown file is le
 2. Customizable Configuration
 Tailor the utility to your specific needs with customizable configuration options.
 Define output paths, HTML templates, and styling preferences.
-3. Error Handling
-Robust error handling ensures smooth execution even when encountering unexpected situations.
-Detailed logs provide insights into the conversion process.
-4. Python & markdown2 flavor
+3. Python & markdown2 flavor
 This utility is built on top of python using `markdown2` library. This markdown flavor is pretty configurable.
 
 Installation and Usage
@@ -43,7 +40,7 @@ Explore additional options such as templates, styles, and parallel processing fo
 In this repo I used only tables from extras in this line#8 `md2htmlred.py` (`converter = markdown2.Markdown(extras=["tables"])`). But this can be extended to many other features mentioned [here](https://github.com/trentm/python-markdown2?tab=readme-ov-file#extra-syntax-aka-extensions). 
 
 ## Conclusion
-In the world of web development, the journey from Markdown to HTML should be smooth and efficient. The MDtoHTMLRec utility streamlines this process, offering a recursive approach that aligns with the organization of modern projects. Enhance your workflow, save time, and ensure consistency in your web content by adopting this versatile utility.
+In the world of web development, the journey from Markdown to HTML should be smooth and efficient. The MDtoHTMLRec utility streamlines this process, offering a recursive approach that aligns with the organization of modern projects. Enhance your workflow, save time, and ensure consistency in your web content.
 
 Thank you. Happy coding! 🚀✨
 
