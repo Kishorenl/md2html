@@ -25,7 +25,7 @@ To get started with MDtoHTMLRec, follow these simple steps:
 bash
 
 ```
-git clone <>
+git clone github.com:Kishorenl/md2html.git
 pip install markdown2
 ```
 
@@ -39,6 +39,8 @@ mdtohtmlrec --input_folder /path/to/markdown_folder --output_folder /path/to/htm
 ## Advanced Configuration:
 
 Explore additional options such as templates, styles, and parallel processing for more advanced usage.
+
+In this repo I used only tables from extras in this line#8 `md2htmlred.py` (`converter = markdown2.Markdown(extras=["tables"])`). But this can be extended to many other features mentioned [here](https://github.com/trentm/python-markdown2?tab=readme-ov-file#extra-syntax-aka-extensions). 
 
 ## Conclusion
 In the world of web development, the journey from Markdown to HTML should be smooth and efficient. The MDtoHTMLRec utility streamlines this process, offering a recursive approach that aligns with the organization of modern projects. Enhance your workflow, save time, and ensure consistency in your web content by adopting this versatile utility.
